@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Capas del Modelo OSI y su rol en la red | Arquitectura de comunicación: Sistemas abiertos Modelo (OSI). Modelo TCP/IP, Clases de IPS, Protocolos. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Fabián Quinde" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site exe-atools" id="exe-node-3"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Arquitectura de comunicación: Sistemas abiertos Modelo (OSI). Modelo TCP/IP, Clases de IPS, Protocolos.</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Portada</a></li>
+   <li><a href="informacin.html" class="no-ch">Información</a></li>
+   <li class="current-page-parent"><a href="introduccin_a_los_modelos_de_comunicacin_osi_y_tcpip.html" class="current-page-parent daddy">Introducción a los Modelos de Comunicación OSI y TCP/IP</a>
+   <ul>
+      <li id="active"><a href="capas_del_modelo_osi_y_su_rol_en_la_red.html" class="active no-ch">Capas del Modelo OSI y su rol en la red</a></li>
+      <li><a href="capas_en_el_modelo_tcpip.html" class="no-ch">Capas en el modelo TCP/IP</a></li>
+      <li><a href="actividades.html" class="no-ch">Actividades</a></li>
+   </ul>
+   </li>
+   <li><a href="clases_de_ip_y_su_aplicacin.html" class="no-ch">Clases de IP y su Aplicación</a></li>
+   <li><a href="protocolos_de_red.html" class="daddy">Protocolos de Red</a>
+   <ul class="other-section">
+      <li><a href="actividades0.html" class="no-ch">Actividades</a></li>
+   </ul>
+   </li>
+   <li><a href="evaluacin_final.html" class="no-ch">Evaluación Final</a></li>
+   <li><a href="descarga_del_recurso.html" class="no-ch">Descarga del Recurso</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="introduccin_a_los_modelos_de_comunicacin_osi_y_tcpip.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="capas_en_el_modelo_tcpip.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Capas del Modelo OSI y su rol en la red</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id3">
+<div class="iDevice emphasis0" >
+<div id="ta3_127_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">El modelo OSI <strong>(Open Systems Interconnection)</strong> es un marco conceptual que estandariza las funciones de una red de telecomunicaciones o de sistemas informáticos, dividiéndolas en siete capas. Cada capa tiene una función específica y se comunica únicamente con la capa inmediata superior e inferior, facilitando el diseño, la implementación y la interoperabilidad de las redes. Este modelo permite que diferentes sistemas y tecnologías trabajen juntos, asegurando una comunicación eficiente y estructurada.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><img src="Modelo_Osi.jpeg" alt="Capas que conforman el modelo OSI" title="Capas del Modelo OSI" width="633" height="451" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">A continuación, se presenta una tabla detallada de cada capa que conforma el modelo OSI, así como un ejemplo de cada una.</span></p>
+<table border="1" style="width: 99.5559%; height: 235px;">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 24.0177%; text-align: center; height: 24px;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="color: #0000ff;">Capas del Modelo OSI</span></strong></span></td>
+<td style="width: 28.2953%; text-align: center; height: 24px;"><strong><span style="font-family: arial, helvetica, sans-serif; color: #0000ff;"> Características</span></strong></td>
+<td style="width: 47.4652%; height: 24px; text-align: center;" colspan="2"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="color: #99cc00;">Ejemplo</span></strong></span></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 24.0177%; height: 23px; text-align: center;"><span style="color: #0000ff; font-family: arial, helvetica, sans-serif;"><strong>Física</strong></span></td>
+<td style="width: 28.2953%; height: 23px; text-align: justify;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;">Transmite los datos en forma de bits a través de cables, ondas, o luz.</span></td>
+<td style="width: 23.0929%; height: 23px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">El cable de red o la señal WiFi que conecta tu dispositivo.</span></td>
+<td style="border-color: #000000; background-color: #d6fffa; width: 24.3723%;"><strong><span style="font-family: arial, helvetica, sans-serif; color: #99cc00;"><img src="https://th.bing.com/th/id/OIP.AD2mxqfrQ8GeOzQh2k-P5AHaFC?rs=1&amp;pid=ImgDetMain" alt="Imagen de un cable de red y la señal WiFi" width="200" height="136" title="Cable de Red y señal WiFi" style="display: block; margin-left: auto; margin-right: auto;" /><br /></span></strong></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 24.0177%; height: 23px; text-align: center;"><span style="color: #0000ff; font-family: arial, helvetica, sans-serif;"><strong>Enlace de Datos</strong></span></td>
+<td style="width: 28.2953%; height: 23px; text-align: justify;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;">Asegura que los datos se transmitan sin errores entre dispositivos conectados directamente.</span></td>
+<td style="width: 23.0929%; height: 23px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Controla los datos que viajan en una red local, como en una oficina.</span></td>
+<td style="width: 24.3723%; height: 23px; border-color: #000000; background-color: #e0fffc;"><img src="images_(1).jpg" alt="Imagen del control los datos que viajan en una red local." title="Enlace de Datos" width="279" height="181" /></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 24.0177%; height: 23px; text-align: center;"><span style="color: #0000ff; font-family: arial, helvetica, sans-serif;"><strong>Red</strong></span></td>
+<td style="width: 28.2953%; height: 23px; text-align: justify;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;">Determina la ruta que los datos seguirán para llegar a su destino.</span></td>
+<td style="width: 23.0929%; height: 23px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Como el GPS elige la ruta óptima, esta capa usa direcciones IP para dirigir los datos.</span></td>
+<td style="width: 24.3723%; height: 23px; border-color: #000000; background-color: #e0fffc;"><img src="2024030110353122238.jpg" alt="Imagen de un gps" title="Red" width="1920" height="1080" /></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 24.0177%; height: 23px; text-align: center;"><span style="color: #0000ff; font-family: arial, helvetica, sans-serif;"><strong>Transporte</strong></span></td>
+<td style="width: 28.2953%; height: 23px; text-align: justify;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;">Asegura que los datos lleguen completos y en orden.</span></td>
+<td style="width: 23.0929%; height: 23px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Similar a un servicio de mensajería que confirma que todas las partes de un paquete llegan juntas.</span></td>
+<td style="width: 24.3723%; height: 23px; border-color: #000000; background-color: #e0fffc;"><img src="images_(2).jpg" alt="como funciona el servicio de mensajería" title="Transporte" width="293" height="172" /></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 24.0177%; height: 23px; text-align: center;"><span style="color: #0000ff; font-family: arial, helvetica, sans-serif;"><strong>Sesión</strong></span></td>
+<td style="width: 28.2953%; height: 23px; text-align: justify;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;">Establece y mantiene las conexiones de comunicación.</span></td>
+<td style="width: 23.0929%; height: 23px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Es como el acto de contestar y mantener una llamada telefónica.</span></td>
+<td style="width: 24.3723%; height: 23px; border-color: #000000; background-color: #e0fffc;"><img src="images_(3).jpg" alt="Persona contestando y manteniendo una llamada telefónica" title="Sesión" width="259" height="194" /></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 24.0177%; height: 23px; text-align: center;"><span style="color: #0000ff; font-family: arial, helvetica, sans-serif;"><strong> Presentación</strong></span></td>
+<td style="width: 28.2953%; height: 23px; text-align: justify;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;">Traduce los datos al formato correcto, como encriptación o compresión.</span></td>
+<td style="width: 23.0929%; height: 23px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Convierte los datos para que sean visibles como imágenes o texto.</span></td>
+<td style="width: 24.3723%; height: 23px; border-color: #000000; background-color: #e0fffc;"><img src="css-image-styling.jpg" alt="Imagen de conversión de los datos para que sean visibles como imágenes o texto" title="Presentación" width="1460" height="730" /></td>
+</tr>
+<tr style="height: 73px;">
+<td style="width: 24.0177%; text-align: center; height: 73px;"><span style="color: #0000ff; font-family: arial, helvetica, sans-serif;"><strong>Aplicación</strong></span></td>
+<td style="width: 28.2953%; text-align: justify; height: 73px;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;">Interactúa directamente con las aplicaciones del usuario, como navegadores o correos electrónicos.</span></td>
+<td style="width: 23.0929%; height: 73px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">La capa donde navegamos en Internet o usamos una app.</span></td>
+<td style="width: 24.3723%; height: 73px; border-color: #000000; background-color: #e0fffc;"><img src="images_(4).jpg" alt="Imagen que representa la capa de navegación en Internet" title="Aplicación" width="300" height="168" /></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nc">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Reconocimiento No comercial 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="introduccin_a_los_modelos_de_comunicacin_osi_y_tcpip.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="capas_en_el_modelo_tcpip.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>

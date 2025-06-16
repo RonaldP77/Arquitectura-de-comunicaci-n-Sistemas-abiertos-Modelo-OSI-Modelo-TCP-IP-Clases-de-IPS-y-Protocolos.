@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Capas en el modelo TCP/IP | Arquitectura de comunicación: Sistemas abiertos Modelo (OSI). Modelo TCP/IP, Clases de IPS, Protocolos. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Fabián Quinde" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site exe-atools" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Arquitectura de comunicación: Sistemas abiertos Modelo (OSI). Modelo TCP/IP, Clases de IPS, Protocolos.</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Portada</a></li>
+   <li><a href="informacin.html" class="no-ch">Información</a></li>
+   <li class="current-page-parent"><a href="introduccin_a_los_modelos_de_comunicacin_osi_y_tcpip.html" class="current-page-parent daddy">Introducción a los Modelos de Comunicación OSI y TCP/IP</a>
+   <ul>
+      <li><a href="capas_del_modelo_osi_y_su_rol_en_la_red.html" class="no-ch">Capas del Modelo OSI y su rol en la red</a></li>
+      <li id="active"><a href="capas_en_el_modelo_tcpip.html" class="active no-ch">Capas en el modelo TCP/IP</a></li>
+      <li><a href="actividades.html" class="no-ch">Actividades</a></li>
+   </ul>
+   </li>
+   <li><a href="clases_de_ip_y_su_aplicacin.html" class="no-ch">Clases de IP y su Aplicación</a></li>
+   <li><a href="protocolos_de_red.html" class="daddy">Protocolos de Red</a>
+   <ul class="other-section">
+      <li><a href="actividades0.html" class="no-ch">Actividades</a></li>
+   </ul>
+   </li>
+   <li><a href="evaluacin_final.html" class="no-ch">Evaluación Final</a></li>
+   <li><a href="descarga_del_recurso.html" class="no-ch">Descarga del Recurso</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="capas_del_modelo_osi_y_su_rol_en_la_red.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="actividades.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Capas en el modelo TCP/IP</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id4">
+<div class="iDevice emphasis0" >
+<div id="ta4_128_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">El modelo TCP/IP <strong>(Transmission Control Protocol/Internet Protocol)</strong> es una arquitectura de red diseñada para permitir la comunicación entre dispositivos a través de redes interconectadas, como internet. Consta de cuatro capas: enlace, internet, transporte y aplicación, cada una con funciones específicas para gestionar el envío y la recepción de datos.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; color: #000000;"> <img src="protocolo-TCP-IP.jpg" alt="Capas que conforman el Modelo TCP/IP" title="Modelo TCP/IP" width="633" height="454" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; color: #000000;">A continuación, se presenta una tabla detallada de cada capa que conforma el modelo TCP/IP, así como un ejemplo de cada una.</span></p>
+<table border="1" style="width: 100%; height: 169px;">
+<tbody>
+<tr style="height: 26px;">
+<td style="width: 23.9866%; height: 26px; text-align: center;"><strong><span style="font-family: arial, helvetica, sans-serif; color: #0000ff;"> Capas del Modelo TCP/IP</span></strong></td>
+<td style="width: 25.8961%; height: 26px; text-align: center;"><strong><span style="font-family: arial, helvetica, sans-serif; color: #0000ff;">Características</span></strong></td>
+<td style="width: 50.1173%; height: 26px; text-align: center;" colspan="2"><strong><span style="color: #99cc00; font-family: arial, helvetica, sans-serif;">Ejemplo</span></strong></td>
+</tr>
+<tr style="height: 27px;">
+<td style="width: 23.9866%; height: 27px; text-align: center;"><strong><span style="font-family: arial, helvetica, sans-serif; color: #0000ff;">Capa de Aplicación</span></strong></td>
+<td style="width: 25.8961%; height: 27px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Equivale a capas 5-7 del OSI y se encarga de la interacción con las aplicaciones del usuario.</span></td>
+<td style="width: 26.0135%; height: 27px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Cuando se abre el navegador y se visita un sitio web, como  www.google.com, para solicitar la página web desde el servidor de Google.</span></td>
+<td style="width: 24.1038%; border-color: #000000; background-color: #d9fbfc;"><img src="capaip1.jpg" alt="Persona accediendo a un navegador web" title="Capa de Aplicación" width="390" height="280" /></td>
+</tr>
+<tr style="height: 33px;">
+<td style="width: 23.9866%; height: 33px; text-align: center;"><strong><span style="font-family: arial, helvetica, sans-serif; color: #0000ff;">Capa de Transporte</span></strong></td>
+<td style="width: 25.8961%; height: 33px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Igual que en OSI asegura la correcta transmisión de datos.</span></td>
+<td style="width: 26.0135%; height: 33px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Cuando se envía un mensaje de texto en WhatsApp, la capa de transporte usa el protocolo TCP para dividir el mensaje en fragmentos (paquetes) y asegurar que todos los paquetes se entreguen completos y en el orden correcto al destinatario.</span></td>
+<td style="width: 24.1038%; border-color: #000000; background-color: #d9fbfc;"><img src="personas-enviando-mensaje_118813-2462.jpg" alt="personas enviandose mensajes" title="Capa de Transporte" width="626" height="530" /></td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 23.9866%; height: 30px; text-align: center;"><strong><span style="font-family: arial, helvetica, sans-serif; color: #0000ff;">Capa de Internet</span></strong></td>
+<td style="width: 25.8961%; height: 30px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Equivale a la capa de Red en OSI) y se encarga del direccionamiento y enrutamiento.</span></td>
+<td style="width: 26.0135%; height: 30px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Cuando se usa una aplicación de mapas y se comparte la ubicación con otra persona, la capa de Internet utiliza el protocolo IP para enviar la dirección de su dispositivo (IP) junto con la información de ubicación.</span></td>
+<td style="width: 24.1038%; border-color: #000000; background-color: #d9fbfc;"><img src="2024030110353122238.jpg" alt="imagen de mapas de google" title="Capa de Internet" width="1920" height="1080" /></td>
+</tr>
+<tr style="height: 31px;">
+<td style="width: 23.9866%; height: 31px; text-align: center;"><strong><span style="font-family: arial, helvetica, sans-serif; color: #0000ff;">Capa de Acceso a la Red</span></strong></td>
+<td style="width: 25.8961%; height: 31px; text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;">Equivale a capas 1 y 2 en OSI, y gestiona la transmisión física de los datos.</span></td>
+<td style="width: 26.0135%; height: 31px; text-align: justify;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;">Cuando se conecta a la red Wi-Fi de una escuela, el dispositivo utiliza la capa de acceso a la red para "hablar" directamente con el router Wi-Fi.</span></td>
+<td style="width: 24.1038%; border-color: #000000; background-color: #d9fbfc;"><img src="portatil-escolar-wifi.jpg" alt="Persona conectándose a la red Wifi" title="Capa de Acceso a la Red" width="1000" height="667" /></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nc">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Reconocimiento No comercial 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="capas_del_modelo_osi_y_su_rol_en_la_red.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="actividades.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
